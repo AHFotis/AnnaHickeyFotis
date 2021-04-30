@@ -1,10 +1,11 @@
 
 import React from "react";
-import Landing from "./pages/Landing";
+import Home from "./pages/Home";
+// import Portfolio from "./pages/Portfolio";
 
 function App() {
   return (
-      <Landing />
+      <Home />
   );
 } 
 
