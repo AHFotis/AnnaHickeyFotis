@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/css/main.css"
+import "../assets/main.css"
 
 function Footer() {
 
@@ -8,15 +8,27 @@ function Footer() {
             <div className="inner">
             <h5 class="footer-copyright text-center py-3">Anna Hickey Fotis |  
              annahickey2@gmail.com |  (952) 239-9980 | © 2020 Copyright</h5>
-                <ul className="icons">
-                    <li><a href="https://www.facebook.com/profile.php?id=13957518" className="icon brands alt fa-facebook-f"><span className="label">Facebook</span></a></li>
-                    <li><a href="https://www.instagram.com/ahickeyfotis/?hl=en" className="icon brands alt fa-instagram"><span className="label">Instagram</span></a></li>
-                    <li><a href="https://github.com/AHFotis" className="icon brands alt fa-github"><span className="label">GitHub</span></a></li>
-                    <li><a href="https://www.linkedin.com/in/anna-hickey-fotis" className="icon brands alt fa-linkedin-in"><span className="label">LinkedIn</span></a></li>
-                </ul>
-                <ul className="copyright">
-                    <li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-                </ul>
+                        <div className="row">
+										<div className="col-sm-10">
+											<p className="footDes">Connect with Anna on Facebook, LinkedIn, and GitHub!</p>
+										</div>
+										<div className="col-sm-2">
+											<div className="row">
+												<div className="col-sm-4">
+													<a href="https://www.facebook.com/profile.php?id=13957518" target="_blank"
+														className="socialFace" title="Facebook"><i className="fa fa-facebook-f fa-2x"></i></a>
+												</div>
+												<div className="col-sm-4">
+													<a href="https://www.linkedin.com/in/anna-hickey-fotis" target="_blank"
+														className="socialLinked" title="LinkedIn"><i className="fa fa-linkedin fa-2x"></i></a>
+												</div>
+												<div className="col-sm-4">
+													<a href="https://github.com/AHFotis" target="_blank" className="socialGit" title="GitHub"><i
+														className="fa fa-github fa-2x"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
             </div>
         </footer>
     )

@@ -1,0 +1,38 @@
+
+header {
+    min-height: 50vh;
+    background-image: url("../../assets/images/pink_brick.jpg");
+}
+
+h1 {
+    float: right;
+    margin-bottom: 0;
+}
+
+.anna { 
+    float: left;  
+    
+    height: 300px;
+    width: 300px;
+} 
+
+#about {
+    background-color: white;
+    margin-top: 20px;
+}
+
+#skills {
+    background-color: white;
+}
+
+a {
+    color: gray;
+}
+
+i:hover {
+   color: black;
+}
+
+a:visited {
+    color: gray;
+}

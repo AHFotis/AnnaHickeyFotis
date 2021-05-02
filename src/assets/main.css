@@ -1,0 +1,41 @@
+
+/* Full Body Styling */
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Nav Bar Styling */
+nav {
+    border: 2px solid black;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+/* General Body Styling */
+.mainBody {
+    background-color: rgb(235, 145, 160); 
+    width: 100%;
+}
+
+/* Footer Styling */
+footer {
+    border: 2px solid black;
+}
+
+.footDes{
+    float: right;
+}
+@media screen and (max-width: 415px) {
+
+    span {
+        display: block;
+    }
+
+}
