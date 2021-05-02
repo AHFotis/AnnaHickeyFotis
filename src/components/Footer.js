@@ -8,9 +8,9 @@ function Footer() {
             <div className="inner">
             <h5 class="footer-copyright text-center py-3">Anna Hickey Fotis |  
              annahickey2@gmail.com |  (952) 239-9980 | © 2020 Copyright</h5>
-                        <div className="row">
-										<div className="col-sm-10">
-											<p className="footDes">Connect with Anna on Facebook, LinkedIn, and GitHub!</p>
+             {/* <div className="row">
+										<div className="col-sm-10 ">
+											<p>Connect with Anna on Facebook, LinkedIn, and GitHub!</p>
 										</div>
 										<div className="col-sm-2">
 											<div className="row">
@@ -28,7 +28,7 @@ function Footer() {
 												</div>
 											</div>
 										</div>
-									</div>
+									</div> */}
             </div>
         </footer>
     )
