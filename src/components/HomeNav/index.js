@@ -13,12 +13,16 @@ function HomeNav() {
 			<section id="homeNav">
 
                 <div className="container">
-                    <div class="row">
-                        <div class="col-sm-6 portfolio">
-                            <h3>Portfolio</h3>
-                        </div>
-                        <div class="col-sm-6 contact">
-                            <h3>Contact</h3>
+                    <div className="row">
+
+                        
+                            <div className="col-sm-5 portfolio">
+                            <h3 className="headline">Portfolio</h3>
+                            </div>
+                        
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-5 contact">
+                            <h3 className="headline">Contact</h3>
                         </div>
                     </div>
                 </div>

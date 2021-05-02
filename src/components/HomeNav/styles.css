@@ -1,4 +1,10 @@
-
+#homeNav {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("../../assets/images/pink_brick.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .portfolio {
     background-image: url("../../assets/images/portfolio.jpg");
@@ -12,4 +18,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
+}
+
+.contact:hover, .portfolio:hover {
+    opacity: 80%;
+}
+
+.headline {
+    font-size: 100px;
+    color: white;
+    color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
