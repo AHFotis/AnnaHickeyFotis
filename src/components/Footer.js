@@ -4,7 +4,7 @@ import "../assets/main.css"
 function Footer() {
 
     return (
-    <footer id="footer">
+    <footer id="footer" className="p-0 mb-0 bg-white text-dark fixed-bottom">
             <div className="inner">
             <h5 class="footer-copyright text-center py-3">Anna Hickey Fotis |  
              annahickey2@gmail.com |  (952) 239-9980 | © 2020 Copyright</h5>
