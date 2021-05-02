@@ -1,0 +1,15 @@
+
+
+.portfolio {
+    background-image: url("../../assets/images/portfolio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.contact {
+    background-image: url("../../assets/images/contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}

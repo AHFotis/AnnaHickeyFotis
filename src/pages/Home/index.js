@@ -7,46 +7,52 @@ import "../../assets/main.css"
 import Anna from "../../assets/images/Anna_Main.jpg"
 import About from "../../components/About"
 import Skills from "../../components/Skills"
+import HomeNav from "../../components/HomeNav"
 
 
 
 function Home() {
 	return (
 
-		<div id="wrapper" className="mainBody">
+		<div>
 
 			<Header />
 
 
-			<main>
-					<header >
+			<main className="mainBody">
+				
+				<header id="welcome">
+
+					<div className=" container title">
+						<div className="row">
+							<div className="col-sm-9">
+						<h1>Anna Hickey Fotis</h1>
+						<p className="description">Creating content with compassion</p>
+						</div>
 						
-								<div className="row">
-								<div className="col-sm-2"></div>
-									<div className="col-sm-6 mb-0">
-										<h1>Anna Hickey Fotis</h1>
-										
-									</div>
-									<div className="col-sm-2">
-									<img className="img img-thumbnail img-fluid" src={Anna}
-										alt="Picture of Anna"></img>
-									</div>
-									<div className="col-sm-2"></div>
-								</div>
+						<div className="col-sm-3">
+						<img className="img img-thumbnail img-fluid anna" src={Anna}
+								alt="Picture of Anna"></img>
+						</div>
+						</div>
+						</div>
+
+						
 							
-					</header>
+						
+				</header>
 
 
-		<About />
+				<About />
 
-			<Skills />
+				<Skills />
+				
+				<HomeNav/>
 
-      
-
-    </main>
-						<Footer />
-</div>
-    )
+			</main>
+			<Footer />
+		</div>
+	)
 }
 
 export default Home;
