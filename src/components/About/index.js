@@ -24,7 +24,7 @@ function About() {
 										<p className="lead">Anna Hickey Fotis is a full stack developer based in Minneapolis, MN. An
 										enthusiastic, collaborative designer and developer, her consistent goal is to craft
 										one-of-a-kind, user-friendly deployments with a laser-like focus on accessibility, function,
-										and design unity across multiple user platforms. When not at her code editor, Anna can be
+										and design unity across multiple user platforms. She also has a knack for debugging and refactoring code. When not at her code editor, Anna can be
 										seen on stages and screens around Minneapolis as a theatrical and commercial actress,
 										specializing in comedy, musical theatre, and industrial work. </p>
                     </div>

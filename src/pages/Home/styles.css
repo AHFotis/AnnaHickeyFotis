@@ -8,7 +8,7 @@
     background-size: cover;
 }
 
-h1 {
+.mainTitle {
     float: right;
     margin-top: 100px;
     font-family: 'Sacramento', cursive;
