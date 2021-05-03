@@ -1,37 +1,55 @@
 import React from "react";
 import "./styles.css"
 import "../../assets/main.css"
+import { Link, useLocation } from "react-router-dom";
 
 
 
 function HomeNav() {
-	return (
-
-		
+    const location = useLocation();
 
 
-			<section id="homeNav">
+    return (
 
-                <div className="container">
-                    <div className="row">
 
-                        
-                            <div className="col-sm-5 portfolio">
-                            <h3 className="headline">Portfolio</h3>
-                            </div>
-                        
-                        <div class="col-sm-2"></div>
-                        <div class="col-sm-5 contact">
-                            <h3 className="headline">Contact</h3>
-                        </div>
+
+
+        <section id="homeNav">
+
+            <div className="container">
+                <div className="row">
+
+
+                    <div className="col-sm-5 portfolio">
+                    <Link
+                        to="/portfolio"
+                        className={location.pathname === "/portfolio"}
+                    >
+                        <h3 className="headline">Portfolio</h3>
+                        </Link>
                     </div>
+
+                    <div class="col-sm-2"></div>
+                    
+
+
+                        <div class="col-sm-5 contact">
+                        <Link
+                        to="/contact"
+                        className={location.pathname === "/contact"}
+                    >
+                            <h3 className="headline">Contact</h3>
+                            </Link>
+                        </div>
+                    
                 </div>
-						
+            </div>
 
-									
-            </section>
 
-			
+
+        </section>
+
+
     )
 }
 
