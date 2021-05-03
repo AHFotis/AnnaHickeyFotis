@@ -3,6 +3,7 @@ import Footer from "../../components/Footer/index"
 import Header from "../../components/Header"
 import "./styles.css"
 import resume from "../../pdf/2021WebDevelopmentResume.pdf"
+import PortfolioList from "../../components/PortfolioList"
 
 
 function Portfolio() {
@@ -49,7 +50,7 @@ function Portfolio() {
 
                 <br></br>
 
-
+            <PortfolioList />
 
             </main>
             <Footer />
