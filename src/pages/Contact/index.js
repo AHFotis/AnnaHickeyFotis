@@ -69,7 +69,7 @@ function Contact() {
 
                 </section>
 
-
+           <br></br>
             </main>
             <Footer />
         </div>
