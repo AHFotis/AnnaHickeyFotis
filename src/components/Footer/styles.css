@@ -1,0 +1,28 @@
+footer {
+    border: 2px solid black;
+}
+
+.footDiv {
+    padding-left: 20px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.social {
+    display: inline;
+    float: right;
+    /* padding: 5px; */
+    margin-right: 5px;
+    color: black;
+}
+
+i {
+    color:black;
+    height: 10px;
+}
+
+
+i:hover {
+    color: grey;
+ }
+ 

@@ -25,17 +25,7 @@ nav {
 }
 
 /* Footer Styling */
-footer {
-    border: 2px solid black;
-}
 
-.words {
-    float: right;
-}
-
-.links {
-    float: left;
-}
 @media screen and (max-width: 415px) {
 
     span {
