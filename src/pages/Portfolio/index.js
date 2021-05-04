@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../../components/Footer/index"
 import Header from "../../components/Header"
 import "./styles.css"
+import "../../assets/main.css"
 import resume from "../../pdf/2021WebDevelopmentResume.pdf"
 import PortfolioList from "../../components/PortfolioList"
 
@@ -19,7 +20,7 @@ function Portfolio() {
 
                 <header id="portfolio">
 
-                    <div className="pTitle">
+                    <div className="container pTitle">
                         <div className="row">
 
                             <h1 className="pHeader">Portfolio</h1>
@@ -29,7 +30,7 @@ function Portfolio() {
 
 
 
-                </header>
+              
 
                 <br></br>
 
@@ -51,7 +52,7 @@ function Portfolio() {
                 <br></br>
 
             <PortfolioList />
-
+            </header>
             </main>
             <Footer />
         </div>

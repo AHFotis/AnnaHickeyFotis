@@ -156,7 +156,7 @@ function PortfolioList() {
                 <img src={codeQuiz} className="img img-thumbnail img-fluid" alt="Code Quiz" data-position="top center" />
             </section>
 
-        <section className="end"></section>
+        
         </section>
     )
 }
