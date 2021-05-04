@@ -27,9 +27,9 @@ function PortfolioList() {
                         <p className="portP"><b>Technologies Used: </b> CSS, Express, MySQL, Sequelize, Session-Sequelize, Handlebars, jQuery, JavaScript, Axios, Charity Navigator, Dotenv, Bcrypt</p>
                         <br></br>
                         <a class="link" href="https://github.com/AHFotis/Cup-of-Sugar"
-                            target="_blank"><button className="btnPink">Visit the Cup of Sugar Repository</button></a>
+                            target="_blank"><button className="btnPink">Visit the Repository</button></a>
                         <a class="link"
-                            href="https://cup-of-sugar-application.herokuapp.com/" target="_blank"><button className="btnPink">Visit the Cup Of Sugar Live Page</button></a>
+                            href="https://cup-of-sugar-application.herokuapp.com/" target="_blank"><button className="btnPink">Visit the Live Page</button></a>
 
                     </div>
                 </div>
@@ -49,9 +49,9 @@ function PortfolioList() {
                         <p className="portP"><b>Technologies Used: </b>CSS, JavaScript, MySQL, Inquirer, Sequelize, Express, Handlebars, Session-Sequelize. Dotenv, Bcrypt</p>
                         <br></br>
                         <a class="link" href="https://github.com/AHFotis/TheBlogosphere"
-                            target="_blank"><button className="btnPink">Visit The Blogosphere Repository</button></a>
+                            target="_blank"><button className="btnPink">Visit the Repository</button></a>
                         <a class="link"
-                            href="https://the-blogosphere.herokuapp.com/" target="_blank"><button className="btnPink">Visit The Blogosphere Live Page</button></a>
+                            href="https://the-blogosphere.herokuapp.com/" target="_blank"><button className="btnPink">Visit the Live Page</button></a>
 
 
                     </div>
@@ -74,9 +74,9 @@ function PortfolioList() {
                         <p className="portP"><b>Technologies Used: </b>CSS, JavaScript, React, React-DOM, React-Scripts, Random User Generator API, Axios, Bootstrap.</p>
                         <br></br>
                         <a class="link" href="https://github.com/AHFotis/EmployeeFinder"
-                            target="_blank"><button className="btnPink">Visit the Employee Finder Repository</button></a>
+                            target="_blank"><button className="btnPink">Visit the Repository</button></a>
                         <a class="link"
-                            href="https://ahfotis.github.io/EmployeeFinder/" target="_blank"><button className="btnPink">Visit the Employee Finder Live Page</button></a>
+                            href="https://ahfotis.github.io/EmployeeFinder/" target="_blank"><button className="btnPink">Visit the Live Page</button></a>
 
 
                     </div>
@@ -98,9 +98,9 @@ function PortfolioList() {
                         Charger Map</p>
                         <br></br>
                         <a class="link" href="https://github.com/AHFotis/RechargeCarApp"
-                            target="_blank"><button className="btnPink">Visit the Recharge Repository</button></a>
+                            target="_blank"><button className="btnPink">Visit the Repository</button></a>
                         <a class="link"
-                            href="https://ahfotis.github.io/RechargeCarApp/" target="_blank"><button className="btnPink">Visit the Recharge Live Page</button></a>
+                            href="https://ahfotis.github.io/RechargeCarApp/" target="_blank"><button className="btnPink">Visit the Live Page</button></a>
 
                     </div>
                 </div>
@@ -125,9 +125,9 @@ function PortfolioList() {
                         Weather Map API</p>
                         <br></br>
                         <a class="link" href="https://github.com/AHFotis/CitySearchWeatherDashboard"
-                            target="_blank"><button className="btnPink">Visit the City Search Repository</button></a>
+                            target="_blank"><button className="btnPink">Visit the Repository</button></a>
                         <a class="link"
-                            href="https://ahfotis.github.io/CitySearchWeatherDashboard/" target="_blank"><button className="btnPink">Visit the City Search Live Page</button></a>
+                            href="https://ahfotis.github.io/CitySearchWeatherDashboard/" target="_blank"><button className="btnPink">Visit the Live Page</button></a>
 
                     </div>
                 </div>
@@ -146,9 +146,9 @@ function PortfolioList() {
                         <p className="portP"><b>Technologies Used: </b>HTML5, CSS, JavaScript, Bootstrap, Google Fonts</p>
                         <br></br>
                         <a class="link" href="https://github.com/AHFotis/CodeQuizForTheCodeWiz"
-                            target="_blank"><button className="btnPink">Visit the Code Quiz Repository</button></a>
+                            target="_blank"><button className="btnPink">Visit the Repository</button></a>
                         <a class="link"
-                            href="https://ahfotis.github.io/CodeQuizForTheCodeWiz/" target="_blank"><button className="btnPink">Visit the Code Quiz Live Page</button></a>
+                            href="https://ahfotis.github.io/CodeQuizForTheCodeWiz/" target="_blank"><button className="btnPink">Visit the Live Page</button></a>
 
 
                     </div>
