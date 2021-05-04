@@ -21,7 +21,8 @@ nav {
 /* General Body Styling */
 .mainBody {
     background-color: rgb(235, 145, 160); 
-    width: 100%;
+    
+    min-height: 110vh;
 
 }
 

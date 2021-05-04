@@ -48,19 +48,19 @@ function Contact() {
                         </div>
                         <br></br>
                         <div className="col-lg-12 fa">
-                            <p><i className="fa fa-envelope fa-2x"></i><a href="mailto:annahickey2@gmail.com">   : annahickey2@gmail.com</a></p>
+                            <p><i className="fa fa-envelope fa-2x"></i><a class="iconLink" href="mailto:annahickey2@gmail.com">   : annahickey2@gmail.com</a></p>
                         </div>
                         <br></br>
                         <div className="col-lg-12 fa">
-                            <p><i className="fa fa-github fa-2x"></i><a href="https://github.com/AHFotis">   : https://github.com/AHFotis</a></p>
+                            <p><i className="fa fa-github fa-2x"></i><a class="iconLink" href="https://github.com/AHFotis">   : https://github.com/AHFotis</a></p>
                         </div>
                         <br></br>
                         <div className="col-lg-12 fa">
-                            <p><i className="fa fa-linkedin fa-2x"></i><a href="https://www.linkedin.com/in/anna-hickey-fotis"> : https://www.linkedin.com/in/anna-hickey-fotis</a></p>
+                            <p><i className="fa fa-linkedin fa-2x"></i><a class="iconLink" href="https://www.linkedin.com/in/anna-hickey-fotis"> : https://www.linkedin.com/in/anna-hickey-fotis</a></p>
                         </div>
                         <br></br>
                         <div className="col-lg-12 fa">
-                            <p><i className="fa fa-facebook fa-2x"></i><a href="https://www.facebook.com/profile.php?id=13957518"> : https://www.facebook.com/profile.php?id=13957518</a></p>
+                            <p><i className="fa fa-facebook fa-2x"></i><a class="iconLink" href="https://www.facebook.com/profile.php?id=13957518"> : https://www.facebook.com/profile.php?id=13957518</a></p>
                         </div>
                     </div>
 

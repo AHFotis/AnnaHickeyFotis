@@ -9,12 +9,12 @@
     
 }
 
-a {
+.iconLink {
     text-decoration: none;
     color: black;
 }
 
-a:hover {
+.iconLink:hover {
     color: gray;
 }
 

@@ -22,6 +22,7 @@ function HomeNav() {
 
                     <div className="col-sm-5 portfolio">
                     <Link
+                        style={{ textDecorationColor: 'black' }}
                         to="/portfolio"
                         className={location.pathname === "/portfolio"}
                     >
@@ -35,6 +36,7 @@ function HomeNav() {
 
                         <div class="col-sm-5 contact">
                         <Link
+                        style={{ textDecorationColor: 'black' }}
                         to="/contact"
                         className={location.pathname === "/contact"}
                     >
