@@ -3,7 +3,7 @@ import "./styles.css"
 import "../../assets/main.css"
 
 
-function PortfolioItem(props) {
+function Project(props) {
     return (
 
         
@@ -41,4 +41,4 @@ function PortfolioItem(props) {
     )
 }
 
-export default PortfolioItem;
+export default Project;

@@ -1,6 +1,6 @@
 import React from "react";
 import "../../assets/main.css"
-import PortfolioItem from "../PortfolioItem"
+import Project from "../Project"
 
 import sugar from "../../assets/images/portPics/cupOfSugar.png"
 import blogosphere from "../../assets/images/portPics/blogosphere.png"
@@ -15,7 +15,7 @@ function PortfolioList() {
 
         <section className="container portBody">
 
-            <PortfolioItem
+            <Project
                 pic={sugar}
                 alt="Cup of Sugar"
                 title="Cup of Sugar"
@@ -25,7 +25,7 @@ function PortfolioList() {
                 live="https://cup-of-sugar-application.herokuapp.com/"
             />
 
-            <PortfolioItem
+            <Project
                 pic={blogosphere}
                 alt="The Blogosphere"
                 title="The Blogosphere"
@@ -35,7 +35,7 @@ function PortfolioList() {
                 live="https://the-blogosphere.herokuapp.com/"
             />
 
-            <PortfolioItem
+            <Project
                 pic={employee}
                 alt="Employee Finder"
                 title="Employee Finder"
@@ -45,7 +45,7 @@ function PortfolioList() {
                 live="https://ahfotis.github.io/EmployeeFinder/"
             />
 
-            <PortfolioItem
+            <Project
                 pic={recharge}
                 alt="Recharge"
                 title="Recharge Car App"
@@ -56,7 +56,7 @@ function PortfolioList() {
                 live="https://ahfotis.github.io/RechargeCarApp/"
             />
 
-            <PortfolioItem
+            <Project
                 pic={city}
                 alt="City Search"
                 title="City Search: A Weather Dashboard"
@@ -67,7 +67,7 @@ function PortfolioList() {
                 live="https://ahfotis.github.io/CitySearchWeatherDashboard/"
             />
 
-            <PortfolioItem
+            <Project
                 pic={codeQuiz}
                 alt="Code Quiz"
                 title="Code Quiz For The Code Wiz"
