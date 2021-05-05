@@ -41,14 +41,27 @@
 }
 
 .phoneEmail {
-    font-Size: 18px;
+    font-size: 18px;
 }
+
+
+/* @media screen and (max-width: 1068px) {
+
+   .phoneEmail{
+        font-size: 12px;
+    }
+  
+  } */
 
 @media screen and (max-width: 796px) {
 
   #contact {
-      width: 50%;
+      width: 75%;
   }
+  .phoneEmail {
+    font-size: 14px;
+    float: left;
+}
 
 }
 

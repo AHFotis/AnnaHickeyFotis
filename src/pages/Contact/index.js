@@ -49,7 +49,7 @@ function Contact() {
                             <p className="faOne phoneEmail"><i className="fa fa-phone fa-1x"></i>   : (952) 239 9980</p>
                         </div>
                         <div className="col-sm-7">
-                            <p className="phoneEmail"><i className="fa fa-envelope fa-1x"></i><a className="iconLink text-wrap" href="mailto:annahickey2@gmail.com">   : annahickey2@gmail.com</a></p>
+                            <p className="phoneEmail"><i className="fa fa-envelope fa-1x"></i><a className="iconLink text-wrap text-break" href="mailto:annahickey2@gmail.com">   : annahickey2@gmail.com</a></p>
                         </div>
                     </div>
                     <br></br>
