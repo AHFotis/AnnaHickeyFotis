@@ -25,7 +25,7 @@ function PortfolioRight(props) {
 
     </div>
 </div>
-<img src={props.pic} className="img img-thumbnail img-fluid" alt={props.alt} data-position="top center" />
+<img src={props.pic} className="img img-thumbnail img-fluid portImg" alt={props.alt} data-position="top center" />
 </section>
 
 )

@@ -3,19 +3,21 @@ import "./styles.css"
 import "../../assets/main.css"
 
 
-function PortfolioLeft(props) {
+function PortfolioItem(props) {
     return (
 
         
             <section className="testAlign white">
-
-                <img src={props.pic} className="img img-thumbnail img-fluid" alt={props.alt} data-position="center center" />
-
-                <div className="content">
+               
+                <div className="content text-wrap">
+            
                     <div>
                         <header>
                             <h3>{props.title}</h3>
                         </header>
+                        <br></br>
+                        <img src={props.pic} className="img img-thumbnail img-fluid portImg" alt={props.alt}  />
+                        <br></br>
                         <br></br>
                         <p className="portP">{props.description}</p>
                         <br></br>
@@ -39,4 +41,4 @@ function PortfolioLeft(props) {
     )
 }
 
-export default PortfolioLeft;
+export default PortfolioItem;

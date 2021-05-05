@@ -26,3 +26,10 @@ i:hover {
     color: grey;
  }
  
+ @media screen and (max-width: 759px) {
+
+    .footDiv {
+       font-size: 12px;
+    }
+ 
+ }

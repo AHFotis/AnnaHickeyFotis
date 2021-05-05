@@ -1,10 +1,12 @@
-img {
-    height: 400px;
-    width: 40%;
+.portImg {
+    height: 60%;
+    width: 100%;
+   
 }
 .content {
-    float: left;
+   
     padding-left: 15px;
+    width: 60%;
 }
 
 .testAlign {
@@ -32,6 +34,12 @@ img {
     background-color: rgb(235, 145, 160);
 }
 
-.last {
-    margin-bottom: 90px;
-}
+
+
+@media screen and (max-width: 991px) {
+
+    .portP {
+       font-size: 15px;
+    }
+ 
+ }

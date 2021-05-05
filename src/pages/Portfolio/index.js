@@ -20,10 +20,10 @@ function Portfolio() {
 
                 <header id="portfolio">
 
-                    <div className="container pTitle">
+                    <div className="container img-fluid pTitle">
                         <div className="row">
 
-                            <h1 className="pHeader">Portfolio</h1>
+                            <h1 className="pHeader ">Portfolio</h1>
 
                         </div>
                     </div>

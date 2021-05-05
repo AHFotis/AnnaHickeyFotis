@@ -1,7 +1,7 @@
 import React from "react";
 import "../../assets/main.css"
-import PortfolioLeft from "../PortfolioLeft"
-import PortfolioRight from "../PortfolioRight"
+import PortfolioItem from "../PortfolioItem"
+
 import sugar from "../../assets/images/portPics/cupOfSugar.png"
 import blogosphere from "../../assets/images/portPics/blogosphere.png"
 import recharge from "../../assets/images/portPics/recharge.png"
@@ -15,7 +15,7 @@ function PortfolioList() {
 
         <section className="container portBody">
 
-            <PortfolioLeft
+            <PortfolioItem
                 pic={sugar}
                 alt="Cup of Sugar"
                 title="Cup of Sugar"
@@ -25,7 +25,7 @@ function PortfolioList() {
                 live="https://cup-of-sugar-application.herokuapp.com/"
             />
 
-            <PortfolioRight
+            <PortfolioItem
                 pic={blogosphere}
                 alt="The Blogosphere"
                 title="The Blogosphere"
@@ -35,7 +35,7 @@ function PortfolioList() {
                 live="https://the-blogosphere.herokuapp.com/"
             />
 
-            <PortfolioLeft
+            <PortfolioItem
                 pic={employee}
                 alt="Employee Finder"
                 title="Employee Finder"
@@ -45,7 +45,7 @@ function PortfolioList() {
                 live="https://ahfotis.github.io/EmployeeFinder/"
             />
 
-            <PortfolioRight
+            <PortfolioItem
                 pic={recharge}
                 alt="Recharge"
                 title="Recharge Car App"
@@ -56,7 +56,7 @@ function PortfolioList() {
                 live="https://ahfotis.github.io/RechargeCarApp/"
             />
 
-            <PortfolioLeft
+            <PortfolioItem
                 pic={city}
                 alt="City Search"
                 title="City Search: A Weather Dashboard"
@@ -67,7 +67,7 @@ function PortfolioList() {
                 live="https://ahfotis.github.io/CitySearchWeatherDashboard/"
             />
 
-            <PortfolioRight
+            <PortfolioItem
                 pic={codeQuiz}
                 alt="Code Quiz"
                 title="Code Quiz For The Code Wiz"
