@@ -1,13 +1,12 @@
 import React from "react";
 import "./styles.css"
 import "../../assets/main.css"
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 
 function HomeNav() {
-    const location = useLocation();
-
+    
 
     return (
 
@@ -24,7 +23,7 @@ function HomeNav() {
                     <Link
                         style={{ textDecorationColor: 'black' }}
                         to="/portfolio"
-                        className={location.pathname === "/portfolio"}
+                        
                     >
                         <h3 className="headline">Portfolio</h3>
                         </Link>
@@ -38,7 +37,7 @@ function HomeNav() {
                         <Link
                         style={{ textDecorationColor: 'black' }}
                         to="/contact"
-                        className={location.pathname === "/contact"}
+                       
                     >
                             <h3 className="headline">Contact</h3>
                             </Link>

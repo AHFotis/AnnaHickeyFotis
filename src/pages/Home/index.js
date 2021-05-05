@@ -31,8 +31,7 @@ function Home() {
 						</div>
 						
 						<div className="col-sm-3 col-xs-4">
-						<img className="img img-thumbnail  anna" src={Anna}
-								alt="Picture of Anna"></img>
+						<img className="img img-thumbnail anna" src={Anna} alt="Anna Hickey Fotis"></img>
 						</div>
 						</div>
 						</div>

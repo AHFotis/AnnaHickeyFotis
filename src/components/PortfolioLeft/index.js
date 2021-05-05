@@ -22,9 +22,9 @@ function PortfolioLeft(props) {
                         <p className="portP"><b>Technologies Used: </b>{props.technologies}</p>
                         <br></br>
                         <a className="link" href={props.repo}
-                            target="_blank"><button className="btnPink">Visit the Repository</button></a>
+                            target="_blank" rel="noreferrer"><button className="btnPink">Visit the Repository</button></a>
                         <a className="link"
-                            href={props.live} target="_blank"><button className="btnPink">Visit the Live Page</button></a>
+                            href={props.live} target="_blank" rel="noreferrer"><button className="btnPink">Visit the Live Page</button></a>
 
                     </div>
                 </div>
