@@ -25,13 +25,12 @@ function Home() {
 
 					<div className=" container title">
 						<div className="row">
-							<div className="col-sm-9 col-xs-8">
+							<div className="col-lg-9 col-sm-7">
 						<h1 className="mainTitle">Anna Hickey Fotis</h1>
-						<p className="description">Creating content with compassion</p>
 						</div>
 						
-						<div className="col-sm-3 col-xs-4">
-						<img className="img img-thumbnail anna" src={Anna} alt="Anna Hickey Fotis"></img>
+						<div className="col-lg-3 col-sm-5">
+						<img className="img img-fluid anna" src={Anna} alt="Anna Hickey Fotis"></img>
 						</div>
 						</div>
 						</div>
