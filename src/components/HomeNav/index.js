@@ -30,11 +30,11 @@ function HomeNav() {
                         </Link>
                     </div>
 
-                    <div class="col-sm-2"></div>
+                    <div className="col-sm-2"></div>
                     
 
 
-                        <div class="col-sm-5 contact">
+                        <div className="col-sm-5 contact">
                         <Link
                         style={{ textDecorationColor: 'black' }}
                         to="/contact"

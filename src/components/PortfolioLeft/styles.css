@@ -28,19 +28,10 @@ img {
     font-size: 20px;
 }
 
-.btnWhite {
-    background-color: white;
-}
-
 .btnPink {
     background-color: rgb(235, 145, 160);
 }
 
 .last {
     margin-bottom: 90px;
-}
-
-.end {
-    height: 20px;
-    background-color: rgb(235, 145, 160);
 }

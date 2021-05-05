@@ -49,7 +49,7 @@ function Contact() {
                             <p className="faOne phoneEmail"><i className="fa fa-phone fa-1x"></i>   : (952) 239 9980</p>
                         </div>
                         <div className="col-sm-7">
-                            <p className="phoneEmail"><i className="fa fa-envelope fa-1x"></i><a class="iconLink text-wrap" href="mailto:annahickey2@gmail.com">   : annahickey2@gmail.com</a></p>
+                            <p className="phoneEmail"><i className="fa fa-envelope fa-1x"></i><a className="iconLink text-wrap" href="mailto:annahickey2@gmail.com">   : annahickey2@gmail.com</a></p>
                         </div>
                     </div>
                     <br></br>
@@ -61,15 +61,15 @@ function Contact() {
                     <div className="row">
                         <div className="col-sm-3"></div>
                         <div className="col-sm-2 fa">
-                            <p className="clickables" ><a class="iconLink" title="GitHub" href="https://github.com/AHFotis"><i className="fa fa-github fa-3x"></i></a></p>
+                            <p className="clickables" ><a className="iconLink" title="GitHub" href="https://github.com/AHFotis"><i className="fa fa-github fa-3x"></i></a></p>
                         </div>
                         
                         <div className="col-sm-2 fa">
-                            <p className="clickables"><a class="iconLink" href="https://www.linkedin.com/in/anna-hickey-fotis"><i className="fa fa-linkedin fa-3x"></i></a></p>
+                            <p className="clickables"><a className="iconLink" href="https://www.linkedin.com/in/anna-hickey-fotis"><i className="fa fa-linkedin fa-3x"></i></a></p>
                         </div>
                        
                         <div className="col-sm-2 fa">
-                            <p className="clickables"><a class="iconLink" href="https://www.facebook.com/profile.php?id=13957518"><i className="fa fa-facebook fa-3x"></i></a></p>
+                            <p className="clickables"><a className="iconLink" href="https://www.facebook.com/profile.php?id=13957518"><i className="fa fa-facebook fa-3x"></i></a></p>
                         </div>
                         <div className="col-sm-3"></div>
                     </div>

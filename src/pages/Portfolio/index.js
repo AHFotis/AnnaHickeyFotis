@@ -40,7 +40,7 @@ function Portfolio() {
                         <div className="col-lg-12">
 
                             <p className="resume">Download Anna's Resume <a href={resume}><i
-                                class="fa fa-file"></i></a></p>
+                                className="fa fa-file"></i></a></p>
                         </div>
                     </div>
 
