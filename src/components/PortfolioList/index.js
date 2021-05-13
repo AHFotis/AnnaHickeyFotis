@@ -3,17 +3,27 @@ import "../../assets/main.css"
 import Project from "../Project"
 
 import sugar from "../../assets/images/portPics/cupOfSugar.png"
+import book from "../../assets/images/portPics/book.png"
 import blogosphere from "../../assets/images/portPics/blogosphere.png"
 import recharge from "../../assets/images/portPics/recharge.png"
 import employee from "../../assets/images/portPics/employee.png"
 import city from "../../assets/images/portPics/citySearch.png"
-import codeQuiz from "../../assets/images/portPics/codeQuiz.png"
+// import codeQuiz from "../../assets/images/portPics/codeQuiz.png"
 
 
 function PortfolioList() {
     return (
 
         <section className="container portBody">
+            <Project
+                pic={book}
+                alt="Book Worm"
+                title="Google Book Worm"
+                description="A MERN book search and save. Users can search by title and see a list. Users can either navigate to the google entry for that book or save it to their reading list. On the saved page, users can view books they've saved or delete them from their list."
+                technologies="CSS, JavaScript, React, React-DOM, React-Scripts, Bootstrap, Google Books API, Axios, Express, Mongoose, MongoDB"
+                repo="https://github.com/AHFotis/GoogleBookWorm"
+                live="https://google-book-worm.herokuapp.com/"
+            />
 
             <Project
                 pic={sugar}
@@ -67,7 +77,7 @@ function PortfolioList() {
                 live="https://ahfotis.github.io/CitySearchWeatherDashboard/"
             />
 
-            <Project
+            {/* <Project
                 pic={codeQuiz}
                 alt="Code Quiz"
                 title="Code Quiz For The Code Wiz"
@@ -75,7 +85,7 @@ function PortfolioList() {
                 technologies="HTML5, CSS, JavaScript, Bootstrap, Google Fonts"
                 repo="https://github.com/AHFotis/CodeQuizForTheCodeWiz"
                 live="https://ahfotis.github.io/CodeQuizForTheCodeWiz/"
-            />
+            /> */}
 
 
         </section>
