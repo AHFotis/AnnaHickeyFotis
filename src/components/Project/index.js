@@ -13,7 +13,7 @@ function Project(props) {
             
                     <div>
                         <header>
-                            <h3>{props.title}</h3>
+                            <h3 classname=".header">{props.title}</h3>
                         </header>
                         <br></br>
                         <img src={props.pic} className="img img-thumbnail img-fluid portImg" alt={props.alt}  />
