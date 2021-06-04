@@ -7,7 +7,7 @@ import book from "../../assets/images/portPics/book.png"
 import blogosphere from "../../assets/images/portPics/blogosphere.png"
 import recharge from "../../assets/images/portPics/recharge.png"
 import employee from "../../assets/images/portPics/employee.png"
-import city from "../../assets/images/portPics/citySearch.png"
+import snuze from "../../assets/images/portPics/snuze.png"
 // import codeQuiz from "../../assets/images/portPics/codeQuiz.png"
 
 
@@ -15,6 +15,18 @@ function PortfolioList() {
     return (
 
         <section className="container portBody">
+
+            <Project
+                pic={snuze}
+                alt="Snüze"
+                title="Snüze"
+                description="Snüze is a tranquil React app, and was designed to meet the needs of users who want some extra help to fall asleep comfortably. Snuze users benefit from free access to relaxing audio, nightly sleep quality tracking, data-based resource recommendations, an online community of other Snuzers, speech-based journaling and site navigation, and so much more."
+                technologies="React, Javascript, HTML, CSS, MongoDB, Mongoose, Node.js, Express, React Bootstrap, MDB React, Axios, Twilio, Web Search API, Date format, Material UI/Icons, Reach Chart js 2, JWT, RC Slider,
+                Circular Progress Bar"
+                repo="https://github.com/AHFotis/Snueze"
+                live="https://snueze.herokuapp.com/"
+            />
+
             <Project
                 pic={book}
                 alt="Book Worm"
@@ -66,26 +78,6 @@ function PortfolioList() {
                 live="https://ahfotis.github.io/RechargeCarApp/"
             />
 
-            <Project
-                pic={city}
-                alt="City Search"
-                title="City Search: A Weather Dashboard"
-                description="An easy to use platform for comprehensive weather information per city."
-                technologies="HTML, CSS, JavaScript, jQuery, Moment.js, Bootstrap, Bootswatch, Open
-                Weather Map API"
-                repo="https://github.com/AHFotis/CitySearchWeatherDashboard"
-                live="https://ahfotis.github.io/CitySearchWeatherDashboard/"
-            />
-
-            {/* <Project
-                pic={codeQuiz}
-                alt="Code Quiz"
-                title="Code Quiz For The Code Wiz"
-                description="A multiple choice quiz application to text your beginner coding knowledge. Save your score to see how you improve."
-                technologies="HTML5, CSS, JavaScript, Bootstrap, Google Fonts"
-                repo="https://github.com/AHFotis/CodeQuizForTheCodeWiz"
-                live="https://ahfotis.github.io/CodeQuizForTheCodeWiz/"
-            /> */}
 
 
         </section>
