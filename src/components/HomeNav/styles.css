@@ -11,6 +11,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
+    position: relative;
 }
 
 .contact {
@@ -18,10 +19,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
+    position: relative;
 }
 
 .contact:hover, .portfolio:hover {
-    opacity: 80%;
+    opacity: .8;
     text-decoration: none;
 }
 
@@ -29,16 +31,24 @@
     font-size: 80px;
     color: white;
     font-weight: 200px;
-    /* /* color: black; */
   -webkit-text-fill-color: white; 
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;    
+  -webkit-text-stroke-color: black;   
+  position: absolute; 
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 1199px) {
 
     .headline {
         font-size: 60px;
+    }
+ 
+ }
+
+ @media screen and (max-width: 991px) {
+
+    .headline {
+        font-size: 40px;
     }
  
  }

@@ -25,7 +25,7 @@ function HomeNav() {
                         to="/portfolio"
                         
                     >
-                        <h3 className="headline">Portfolio</h3>
+                        <h3 className="headline img-fluid">Portfolio</h3>
                         </Link>
                     </div>
 
